@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Riot&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: var(--parapraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #00243D;
+    --secondary-color: #9CAFB7;
+    --accent1-color: #EAD2AC;
+    --accent2-color: #36817F;
+
+    --heading-font: 'Protest Riot';
+    --paragraph-font: 'Montserrat'; 
+
+    --nav-background-color: #9CAFB7;
+    --nav-link-color: #00243D;
+    --nav-hover-link-color: #EAD2AC;
+    --nav-hover-background-color: #36817F;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
