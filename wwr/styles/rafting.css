@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Riot&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: var(--parapraph-font);
+    max-width: 1000px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #00243D;
+    --secondary-color: #9CAFB7;
+    --accent1-color: #EAD2AC;
+    --accent2-color: #36817F;
+
+    --heading-font: 'Protest Riot';
+    --paragraph-font: 'Montserrat'; 
+
+    --nav-background-color: #9CAFB7;
+    --nav-link-color: #00243D;
+    --nav-hover-link-color: #EAD2AC;
+    --nav-hover-background-color: #36817F;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article img {
+    width: 300px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
+    object-fit: cover;
+}
+
