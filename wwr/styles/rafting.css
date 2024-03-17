@@ -20,26 +20,55 @@ body {
     --nav-hover-link-color: #EAD2AC;
     --nav-hover-background-color: #36817F;
 }
-
-h1, h2 {
+ 
+h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-.hero img{
+.hero div {
+    position: relative;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    position: absolute;
+    top: 290px;
+    left: 275px;
+}
+
+
+.herodiv img{
     display: block;
     width: 100%;
     height: auto;
+    opacity: 0.5;
 }
 
-article img {
-    width: 300px;
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0, 0, .1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
+}
+
+.article {
+    width: 200px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid grey;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
-    float: right;
+    box-shadow: 0 0 30px grey;
     margin: 0 0 1rem 1rem;
-    object-fit: cover;
+    position: absolute;
+    float: right;
+    top: 425px;
+    left: 750px;
+    color: var(--primary-color);
+    background-color: #eee;
 }
 
+.article img {
+    float: right;
+}
